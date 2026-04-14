@@ -1,6 +1,7 @@
 payload:
-  - DOMAIN-SUFFIX,ip.sb
-  - DOMAIN-SUFFIX,2ip.ru
+  - GEOSITE,2ip
+  - DOMAIN-KEYWORD,2ip
+  - DOMAIN-REGEX,.*2ip.*
   # youtube
   - DOMAIN-KEYWORD,youtube
   - GEOSITE,youtube
