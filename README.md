@@ -5,6 +5,13 @@ It uses some rules from offical Mihomo's geosite and include my own custom rules
 #### config.yml:
 ```
 rule-providers:
+  Kotishe135-vpn:
+    type: http
+    url: https://github.com/Kotishe135/mihomo_ruleset/raw/refs/heads/main/rulesets/vpn.yaml
+    interval: 300
+    proxy: DIRECT
+    behavior: classical
+    format: yaml
   Kotishe135-proxy:
     type: http
     url: https://github.com/Kotishe135/mihomo_ruleset/raw/refs/heads/main/rulesets/proxy.yaml
@@ -29,5 +36,6 @@ rule-providers:
 rules:
   - RULE-SET,Kotishe135-reject,REJECT
   - RULE-SET,Kotishe135-proxy,PROXY
+  - RULE-SET,Kotishe135-vpn,VPN
   - RULE-SET,Kotishe135-direct,DIRECT
 ```
