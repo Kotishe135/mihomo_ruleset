@@ -2,6 +2,7 @@ payload:
   - GEOSITE,2ip
   - DOMAIN-KEYWORD,2ip
   - DOMAIN-REGEX,.*2ip.*
+  - IP-CIDR,188.40.167.82/32
   # youtube
   - DOMAIN-KEYWORD,youtube
   - GEOSITE,youtube
