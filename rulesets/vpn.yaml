@@ -1,14 +1,5 @@
 payload:
 #instagram
-  - GEOSITE,instagram
-  - DOMAIN-KEYWORD,instagram
-  - DOMAIN-REGEX,.*instagram.*
-  - GEOSITE,facebook
-  - DOMAIN-KEYWORD,facebook
-  - DOMAIN-REGEX,.*facebook.*
-  - GEOSITE,fbcdn.net
-  - DOMAIN-KEYWORD,fbcdn.net
-  - DOMAIN-REGEX,.*fbcdn.net.*
   - IP-CIDR,102.132.97.63/32
   - IP-CIDR,102.132.99.63/32
   - IP-CIDR,116.119.62.33/32
@@ -226,22 +217,6 @@ payload:
   - IP-CIDR,87.245.208.97/32
 #end instagram
 #openai
-  - GEOSITE,chatgpt
-  - DOMAIN-KEYWORD,chatgpt
-  - DOMAIN-REGEX,.*chatgpt.*
-  - DOMAIN-KEYWORD,pornhub
-  - DOMAIN-REGEX,.*pornhub.*
-  - DOMAIN-KEYWORD,phncdn
-  - DOMAIN-REGEX,.*phncdn.*
-  - GEOSITE,openai
-  - DOMAIN-KEYWORD,openai
-  - DOMAIN-REGEX,.*openai.*
-  - GEOSITE,oaiusercontent
-  - DOMAIN-KEYWORD,oaiusercontent
-  - DOMAIN-REGEX,.*oaiusercontent.*
-  - GEOSITE,oaistatic
-  - DOMAIN-KEYWORD,oaistatic
-  - DOMAIN-REGEX,.*oaistatic.*
   - IP-CIDR,104.18.32.47/32
   - IP-CIDR,104.18.33.45/32
   - IP-CIDR,104.18.37.228/32

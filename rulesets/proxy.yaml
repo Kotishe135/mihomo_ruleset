@@ -1,11 +1,6 @@
 payload:
-  - GEOSITE,2ip
-  - DOMAIN-KEYWORD,2ip
-  - DOMAIN-REGEX,.*2ip.*
-  - IP-CIDR,188.40.167.82/32
+  - IP-CIDR,188.40.167.0/24
   # youtube
-  - DOMAIN-KEYWORD,youtube
-  - GEOSITE,youtube
   - IP-CIDR,1.225.35.109/32
   - IP-CIDR,1.225.35.110/32
   - IP-CIDR,1.225.35.111/32
@@ -6580,8 +6575,6 @@ payload:
   - IP-CIDR,96.9.130.205/32
   #end youtube
   #jetbrains
-  - DOMAIN-KEYWORD,jetbrains
-  - GEOSITE,jetbrains
   - IP-CIDR,108.156.22.76/32
   - IP-CIDR,108.156.22.60/32
   - IP-CIDR,108.156.22.30/32
@@ -6837,8 +6830,6 @@ payload:
   - IP-CIDR,65.8.131.53/32
   #end jetbrains
   #google
-  - DOMAIN-KEYWORD,google
-  - GEOSITE,google
   - IP-CIDR,108.177.14.100/32
   - IP-CIDR,108.177.14.101/32
   - IP-CIDR,108.177.14.102/32
@@ -6993,8 +6984,6 @@ payload:
   - IP-CIDR,74.125.205.99/32
   #end google
   #twitch
-  - DOMAIN-KEYWORD,twitch
-  - GEOSITE,twitch
   - IP-CIDR,10.192.193.25/32
   - IP-CIDR,10.192.199.182/32
   - IP-CIDR,10.192.202.7/32
@@ -7372,8 +7361,6 @@ payload:
   - IP-CIDR,95.101.133.89/32
   #end twitch
   #discord
-  - DOMAIN-KEYWORD,discord
-  - GEOSITE,discord
   - IP-CIDR,104.17.117.93/32
   - IP-CIDR,104.17.51.93/32
   - IP-CIDR,104.18.48.115/32
@@ -7447,8 +7434,6 @@ payload:
   - IP-CIDR,8.6.112.8/32
   #end discord
   #telegram
-  - DOMAIN-KEYWORD,telegram
-  - GEOSITE,telegram
   - IP-CIDR,149.154.162.203/32
   - IP-CIDR,149.154.162.204/32
   - IP-CIDR,149.154.164.13/32
@@ -7470,8 +7455,6 @@ payload:
   - IP-CIDR,95.161.64.99/32
   #end telegram
   #whatsapp
-  - DOMAIN-KEYWORD,whatsapp
-  - GEOSITE,whatsapp
   - IP-CIDR,1.38.5.162/32
   - IP-CIDR,1.38.7.162/32
   - IP-CIDR,1.38.7.226/32
@@ -8669,8 +8652,6 @@ payload:
   - IP-CIDR,95.95.252.226/32
   #end whatsapp
   #github
-  - DOMAIN-KEYWORD,github
-  - GEOSITE,github
   - IP-CIDR,192.30.252.0/22
   - IP-CIDR,185.199.108.0/22
   - IP-CIDR,140.82.112.0/20
@@ -14952,8 +14933,6 @@ payload:
   - IP-CIDR6,2606:50c0::/32
   #end github
   #linkedin
-  - DOMAIN-KEYWORD,linkedin
-  - GEOSITE,linkedin
   - IP-CIDR,8.22.121.0/24
   - IP-CIDR,8.39.53.0/24
   - IP-CIDR,45.42.64.0/24
@@ -15622,7 +15601,6 @@ payload:
   - IP-CIDR,216.200.149.0/24
   #end linkedin
   #mega
-  - DOMAIN-KEYWORD,mega
   - IP-CIDR,66.203.126.0/23
   - IP-CIDR,82.21.172.0/24
   - IP-CIDR,82.29.203.0/24
@@ -15635,7 +15613,6 @@ payload:
   - IP-CIDR,162.208.16.0/24
   #end mega
   #lichess
-  - DOMAIN-KEYWORD,lichess
   - IP-CIDR,149.202.92.0/24
   - IP-CIDR,5.196.91.0/24
   - IP-CIDR,5.196.64.0/24
@@ -15643,7 +15620,6 @@ payload:
   - IP-CIDR,37.59.32.0/24
   #end lichess
   #zzap
-  - DOMAIN-KEYWORD,zzap
   #end zzap
 #anime-hentailib.me
   - IP-CIDR,104.16.0.0/12
