@@ -16312,7 +16312,6 @@ payload:
   - IP-CIDR,52.96.0.0/12
   - IP-CIDR,54.160.0.0/11
   - IP-CIDR,54.224.0.0/11
-  - IP-CIDR,57.0.0.0/8
   - IP-CIDR,58.128.0.0/9
   - IP-CIDR,58.16.0.0/12
   - IP-CIDR,59.153.128.0/17
@@ -18069,7 +18068,6 @@ payload:
   - IP-CIDR,52.216.0.0/14
   - IP-CIDR,52.224.0.0/11
   - IP-CIDR,54.224.0.0/11
-  - IP-CIDR,57.0.0.0/8
   - IP-CIDR,74.240.0.0/14
 #end socials-github.com
 #socials-reddit.com
@@ -18762,7 +18760,6 @@ payload:
   - IP-CIDR,54.216.0.0/14
   - IP-CIDR,54.224.0.0/11
   - IP-CIDR,54.64.0.0/11
-  - IP-CIDR,57.180.0.0/14
   - IP-CIDR,62.115.252.0/24
   - IP-CIDR,62.115.253.0/24
   - IP-CIDR,65.8.0.0/14
