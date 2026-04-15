@@ -747,3 +747,15 @@ payload:
   - IP-CIDR,82.117.243.0/24
   - IP-CIDR,92.205.128.0/20
 #end tools-proxyline.net
+#google-google@gemini
+  - IP-CIDR,108.177.0.0/17
+  - IP-CIDR,142.250.0.0/15
+  - IP-CIDR,172.217.0.0/16
+  - IP-CIDR,172.253.0.0/16
+  - IP-CIDR,173.194.0.0/16
+  - IP-CIDR,192.178.0.0/15
+  - IP-CIDR,209.85.128.0/17
+  - IP-CIDR,216.58.192.0/19
+  - IP-CIDR,64.233.160.0/19
+  - IP-CIDR,66.102.0.0/20
+  - IP-CIDR,74.125.0.0/16
