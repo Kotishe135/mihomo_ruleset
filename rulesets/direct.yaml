@@ -1,3 +1,2 @@
 payload:
-  - GEOSITE,category-ru
-  - GEOSITE,mailru
+  - GEOIP,RU
